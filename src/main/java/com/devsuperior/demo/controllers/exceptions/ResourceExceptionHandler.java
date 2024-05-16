@@ -14,7 +14,7 @@ import com.devsuperior.demo.services.exceptions.ResourceNotFoundException;
 
 import jakarta.servlet.http.HttpServletRequest;
 
-//@ControllerAdvice
+@ControllerAdvice
 public class ResourceExceptionHandler {
 	
 	@ExceptionHandler (ResourceNotFoundException.class)
